@@ -909,14 +909,21 @@ body {
 
 .page-header {
   background: linear-gradient(to bottom, #ffde89, #f8ad14);
-  height: 104px; }
+  height: 104px;
+  padding-top: 8px; }
 
 .logo {
   font-family: "uni_sansheavy_caps";
   font-size: 38px;
   color: #3c3c3c;
+  text-align: center;
   text-decoration: none;
-  line-height: 104px; }
+  line-height: 104px;
+  display: block;
+  width: 655px;
+  background-color: #FFF;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px; }
 
 .site-menu {
   background-color: #323232;
