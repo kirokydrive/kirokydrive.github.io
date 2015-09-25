@@ -839,7 +839,8 @@ body {
   font-size: 11px; }
 
 .page-content {
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-bottom: 35px; }
 
 .page-footer {
   background-color: #f7f7f7; }
@@ -1011,8 +1012,8 @@ body {
     margin-bottom: 40px; }
   .info-table {
     width: 100%; }
-    .info-table__row {
-      margin-bottom: 12px; }
+    .info-table__row td {
+      padding-bottom: 5px; }
     .info-table__name {
       font-weight: 600;
       width: 50%; }
@@ -1059,6 +1060,10 @@ body {
       display: block;
       margin-top: 15px;
       margin-bottom: 15px; }
+
+.account-details__table {
+  border: 1px solid #d8d8d8;
+  border-radius: 2px; }
 
 .know__title {
   color: #444444;
