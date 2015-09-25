@@ -840,7 +840,8 @@ body {
 
 .page-content {
   padding-top: 15px;
-  padding-bottom: 35px; }
+  padding-bottom: 35px;
+  z-index: 999; }
 
 .page-footer {
   background-color: #f7f7f7; }
@@ -1014,22 +1015,32 @@ body {
 
 .deposit {
   height: 50px;
+  width: 100%;
   background-color: #eeeeee;
   margin-bottom: 15px;
   border: 1px solid #d8d8d8;
   border-radius: 2px;
-  line-height: 50px;
-  padding: 0px 20px; }
+  float: left; }
+  .deposit:before {
+    content: '';
+    display: block;
+    position: relative;
+    height: 20px;
+    width: 100%;
+    border-radius: 0% 0% 50% 50%;
+    background-color: #fafafa; }
   .deposit__title {
     float: left;
     color: #484848;
+    padding-left: 20px;
     font-size: 16px;
     font-weight: 600;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    z-index: 5; }
   .deposit__icon {
     display: inline-block;
     float: right;
-    margin-top: 10px; }
+    padding-right: 20px; }
 
 .info {
   float: left;
