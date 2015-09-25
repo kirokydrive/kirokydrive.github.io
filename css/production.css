@@ -847,11 +847,13 @@ body {
 .header-top {
   background-color: #fefefe;
   height: 31px;
-  line-height: 31px; }
+  line-height: 31px;
+  font-family: 'open_sansregular'; }
 
 .nav-top-header {
   float: right;
-  height: 100%; }
+  height: 100%;
+  margin-right: 270px; }
 
 .time {
   line-height: 31px;
@@ -859,7 +861,7 @@ body {
   .time__text {
     margin: 0;
     color: #9b9b9b;
-    font-size: 13px; }
+    font-size: 11px; }
     .time__text:before {
       content: '';
       display: inline-block;
@@ -882,7 +884,6 @@ body {
   .chat__icon {
     display: inline-block;
     color: #9b9b9b;
-    font-size: 13px;
     text-decoration: none; }
     .chat__icon:before {
       content: '';
@@ -898,7 +899,7 @@ body {
   .settings__icon {
     display: inline-block;
     color: #9b9b9b;
-    font-size: 13px;
+    font-size: 11px;
     text-decoration: none; }
     .settings__icon:before {
       content: '';
@@ -912,13 +913,13 @@ body {
 .page-header {
   background: linear-gradient(to bottom, #ffde89, #f8ad14);
   height: 104px;
-  padding-top: 8px; }
+  padding-top: 0px; }
 
 .logo {
   line-height: 104px;
   display: inline-block;
   margin-left: 15px;
-  width: 655px;
+  width: 575px;
   background-color: #FFF;
   border-top-left-radius: 0px;
   border-top-right-radius: 100px;
@@ -1013,8 +1014,8 @@ body {
   .method__icon {
     display: inline-block;
     position: relative;
-    top: -32px;
-    left: 210px; }
+    top: -31px;
+    left: 197px; }
   .method-item {
     width: 234px;
     border-radius: 2px;
@@ -1186,8 +1187,6 @@ body {
       margin-left: 0; }
     .footer-menu__item:last-child {
       margin-right: 0; }
-    .footer-menu__item:after {
-      content: '.'; }
   .footer-menu__link {
     color: #333333;
     font-size: 11px;
@@ -1245,17 +1244,6 @@ body {
   font-size: 10px;
   text-align: center; }
 
-/*
-Icon classes can be used entirely standalone. They are named after their original file names.
-
-```html
-<!-- `display: block` sprite -->
-<div class="icon-home"></div>
-
-<!-- `display: inline-block` sprite -->
-<img class="icon-home" />
-```
-*/
 .icon-apply {
   background-image: url(../img/sprite.png);
   background-position: -198px -32px;
