@@ -949,9 +949,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: block;
     height: 33px;
-    background: linear-gradient(#5e5e5e, #343434);
-    border-top: 1px solid #8f8f8f;
     line-height: 33px; }
   .site-menu__item {
     float: left;
@@ -960,6 +959,10 @@ body {
     .site-menu__item:hover {
       background-color: #323232;
       height: 100%; }
+  .site-menu_bg {
+    background: linear-gradient(#5e5e5e, #343434);
+    border-top: 1px solid #8f8f8f;
+    width: 100%; }
   .site-menu__link {
     color: #FFF;
     text-decoration: none;
