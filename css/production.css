@@ -1057,6 +1057,7 @@ body {
       content: '';
       display: inline-block;
       float: right;
+      margin-top: 3px;
       background-image: url("../img/sprite.png");
       background-position: -148px -47px;
       width: 54px;
@@ -1226,7 +1227,20 @@ body {
   border-style: solid;
   border-color: #d8d8d8;
   border-radius: 2px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  height: 255px; }
+  .security:after {
+    content: '';
+    position: relative;
+    top: -140px;
+    display: block;
+    border-radius: 100px/50px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top: 1px solid #d8d8d8;
+    background: radial-gradient(circle, #fbfbfb 40%, #e7e7e7 97%);
+    height: 142px;
+    width: 100%; }
   .security__title {
     background: linear-gradient(to bottom, #fefefe, #f9f9f9);
     margin: 0;
@@ -1246,7 +1260,9 @@ body {
       height: 12px; }
   .security-box {
     padding: 20px;
-    text-align: center; }
+    text-align: center;
+    position: relative;
+    z-index: 2; }
     .security-box:before {
       content: '';
       display: inline-block;
@@ -1258,6 +1274,7 @@ body {
       margin-bottom: 19px; }
     .security-box__text {
       margin: 0;
+      border: block;
       font-family: 'open_sansregular';
       font-size: 11px;
       font-weight: 400; }
