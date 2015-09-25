@@ -1053,6 +1053,14 @@ body {
     border-bottom: 1px solid #d8d8d8;
     padding-bottom: 20px;
     margin-bottom: 15px; }
+    .info__title_icon:after {
+      content: '';
+      display: inline-block;
+      float: right;
+      background-image: url("../img/sprite.png");
+      background-position: -148px -47px;
+      width: 54px;
+      height: 13px; }
   .info-content {
     background-color: #FFF;
     width: 419px;
