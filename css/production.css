@@ -994,6 +994,12 @@ body {
   background-color: #eeeeee;
   color: #333333;
   border-radius: 2px; }
+  .info__title {
+    margin: 0;
+    font-size: 13px;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 20px;
+    margin-bottom: 15px; }
   .info-content {
     background-color: #FFF;
     width: 419px;
@@ -1001,6 +1007,17 @@ body {
     border: 1px solid #d8d8d8;
     border-radius: 0px 2px 2px 0px;
     padding: 30px; }
+  .info-box {
+    margin-bottom: 40px; }
+  .info-table {
+    width: 100%; }
+    .info-table__row {
+      margin-bottom: 12px; }
+    .info-table__name {
+      font-weight: 600;
+      width: 50%; }
+    .info-table__body {
+      font-family: 'open_sanssemibold'; }
 
 .method {
   width: 234px;
@@ -1025,7 +1042,7 @@ body {
     border-radius: 2px;
     background-color: #ffffff;
     float: left;
-    margin-top: 20px; }
+    margin-bottom: 20px; }
     .method-item__title {
       margin: 0;
       background: linear-gradient(to bottom, #fdfdfd, #f4f4f4);
