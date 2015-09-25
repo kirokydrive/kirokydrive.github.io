@@ -846,6 +846,26 @@ body {
 .page-footer {
   background-color: #f7f7f7; }
 
+.footer-bot {
+  background-color: #eaeaea;
+  color: #cecece;
+  height: 105px;
+  padding-top: 10px;
+  line-height: 105px; }
+  .footer-bot__text {
+    display: block;
+    line-height: 15px;
+    margin-top: 28px;
+    font-family: 'open_sansregular'; }
+  .footer-bot__author {
+    float: left;
+    margin-right: 25px; }
+  .footer-bot__logo {
+    float: left;
+    display: block;
+    margin-top: 30px;
+    margin-right: 65px; }
+
 .header-top {
   background-color: #fefefe;
   height: 31px;
@@ -868,7 +888,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -205px -60px;
+      background-position: -213px -67px;
       width: 11px;
       height: 11px;
       margin-right: 7px; }
@@ -891,7 +911,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -202px -47px;
+      background-position: -212px -52px;
       width: 13px;
       height: 11px;
       margin-right: 5px; }
@@ -945,7 +965,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -186px -75px;
+      background-position: -194px -80px;
       width: 11px;
       height: 11px;
       margin-right: 5px; }
@@ -1040,7 +1060,7 @@ body {
   .deposit__icon {
     display: inline-block;
     float: right;
-    padding-right: 20px; }
+    margin-right: 20px; }
 
 .info {
   float: left;
@@ -1059,7 +1079,7 @@ body {
       float: right;
       margin-top: 3px;
       background-image: url("../img/sprite.png");
-      background-position: -148px -47px;
+      background-position: -148px -67px;
       width: 54px;
       height: 13px; }
   .info-content {
@@ -1194,7 +1214,7 @@ body {
         content: '';
         display: inline-block;
         background-image: url("../img/sprite.png");
-        background-position: -202px -47px;
+        background-position: -212px -52px;
         width: 13px;
         height: 11px;
         margin-right: 10px; }
@@ -1204,7 +1224,7 @@ body {
         content: '';
         display: inline-block;
         background-image: url("../img/sprite.png");
-        background-position: -164px -88px;
+        background-position: -216px -80px;
         width: 11px;
         height: 8px;
         margin-right: 10px; }
@@ -1215,7 +1235,7 @@ body {
         content: '';
         display: inline-block;
         background-image: url("../img/sprite.png");
-        background-position: -175px -88px;
+        background-position: -216px -95px;
         width: 11px;
         height: 8px;
         margin-right: 10px; }
@@ -1255,7 +1275,7 @@ body {
       display: inline-block;
       margin-right: 10px;
       background-image: url("../img/sprite.png");
-      background-position: -198px -32px;
+      background-position: -198px -52px;
       width: 14px;
       height: 12px; }
   .security-box {
@@ -1343,7 +1363,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -208px -75px;
+      background-position: -218px -40px;
       margin-right: 3px;
       width: 10px;
       height: 10px; }
@@ -1353,21 +1373,32 @@ body {
   font-size: 10px;
   text-align: center; }
 
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
 .icon-apply {
   background-image: url(../img/sprite.png);
-  background-position: -198px -32px;
+  background-position: -198px -52px;
   width: 14px;
   height: 12px;
 }
 .icon-arrow {
   background-image: url(../img/sprite.png);
-  background-position: -208px -75px;
+  background-position: -218px -40px;
   width: 10px;
   height: 10px;
 }
 .icon-bank {
   background-image: url(../img/sprite.png);
-  background-position: -148px -47px;
+  background-position: -148px -67px;
   width: 54px;
   height: 13px;
 }
@@ -1379,25 +1410,25 @@ body {
 }
 .icon-chat {
   background-image: url(../img/sprite.png);
-  background-position: -202px -47px;
+  background-position: -212px -52px;
   width: 13px;
   height: 11px;
 }
 .icon-clock {
   background-image: url(../img/sprite.png);
-  background-position: -205px -60px;
+  background-position: -213px -67px;
   width: 11px;
   height: 11px;
 }
 .icon-email {
   background-image: url(../img/sprite.png);
-  background-position: -164px -88px;
+  background-position: -216px -80px;
   width: 11px;
   height: 8px;
 }
 .icon-facebook {
   background-image: url(../img/sprite.png);
-  background-position: -194px -60px;
+  background-position: -202px -67px;
   width: 11px;
   height: 11px;
 }
@@ -1409,7 +1440,7 @@ body {
 }
 .icon-kash {
   background-image: url(../img/sprite.png);
-  background-position: -148px -60px;
+  background-position: -148px -80px;
   width: 46px;
   height: 15px;
 }
@@ -1421,67 +1452,73 @@ body {
 }
 .icon-mastercard {
   background-image: url(../img/sprite.png);
-  background-position: -186px -12px;
+  background-position: -148px -95px;
   width: 30px;
   height: 18px;
 }
 .icon-money {
   background-image: url(../img/sprite.png);
-  background-position: -63px -109px;
+  background-position: -148px -14px;
   width: 39px;
   height: 26px;
 }
 .icon-neteller {
   background-image: url(../img/sprite.png);
-  background-position: -148px 0px;
+  background-position: -148px -40px;
   width: 70px;
   height: 12px;
 }
 .icon-paypal {
   background-image: url(../img/sprite.png);
-  background-position: -148px -32px;
+  background-position: -148px -52px;
   width: 50px;
   height: 15px;
 }
 .icon-paysafe {
   background-image: url(../img/sprite.png);
-  background-position: -63px -95px;
+  background-position: -148px 0px;
   width: 80px;
   height: 14px;
 }
 .icon-phone {
   background-image: url(../img/sprite.png);
-  background-position: -175px -88px;
+  background-position: -216px -95px;
   width: 11px;
   height: 8px;
 }
 .icon-plus {
   background-image: url(../img/sprite.png);
-  background-position: -148px -88px;
+  background-position: -148px -113px;
   width: 16px;
   height: 16px;
 }
+.icon-ppl {
+  background-image: url(../img/sprite.png);
+  background-position: -63px -95px;
+  width: 51px;
+  height: 41px;
+}
 .icon-settings {
   background-image: url(../img/sprite.png);
-  background-position: -186px -75px;
+  background-position: -194px -80px;
   width: 11px;
   height: 11px;
 }
 .icon-skrill {
   background-image: url(../img/sprite.png);
-  background-position: -148px -12px;
+  background-position: -187px -14px;
   width: 38px;
   height: 20px;
 }
 .icon-twitter {
   background-image: url(../img/sprite.png);
-  background-position: -197px -75px;
+  background-position: -205px -80px;
   width: 11px;
   height: 11px;
 }
 .icon-visa {
   background-image: url(../img/sprite.png);
-  background-position: -148px -75px;
+  background-position: -178px -95px;
   width: 38px;
   height: 13px;
 }
