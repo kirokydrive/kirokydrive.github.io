@@ -931,11 +931,13 @@ body {
           transform: skew(40deg); }
   .logo__link {
     display: block;
+    height: 88px;
     font-family: "uni_sansheavy_caps";
     font-size: 38px;
     color: #3c3c3c;
     text-decoration: none;
     text-align: center;
+    margin-left: 150px;
     -webkit-transform: skew(-40deg);
             transform: skew(-40deg); }
 
