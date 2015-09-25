@@ -897,6 +897,9 @@ body {
   .chat-notify {
     display: inline-block;
     width: 118px;
+    height: 28px;
+    min-width: 118px;
+    min-height: 28px;
     font-size: 11px;
     background-color: #FFF;
     border: 1px solid #d8d8d8;
@@ -908,7 +911,7 @@ body {
     .chat-notify:before {
       content: '';
       position: relative;
-      top: 57px;
+      top: 40px;
       left: -30px;
       height: 0;
       width: 0;
@@ -923,10 +926,12 @@ body {
       border-left: 11.5px solid transparent;
       border-right: 11.5px solid transparent;
       border-top: 11.5px solid #FFF;
-      top: 26px;
+      top: 9px;
       left: -30px; }
     .chat-notify__sms {
-      display: inline-block; }
+      display: block;
+      position: relative;
+      top: -10px; }
 
 .settings {
   float: left; }
@@ -1201,6 +1206,7 @@ body {
   border-width: 1px;
   border-style: solid;
   border-color: #d8d8d8;
+  border-radius: 2px;
   margin-top: 15px; }
   .security__title {
     background: linear-gradient(to bottom, #fefefe, #f9f9f9);
@@ -1209,7 +1215,8 @@ body {
     border-bottom: 1px solid #d8d8d8;
     padding: 10px;
     font-size: 11px;
-    font-weight: 600; }
+    font-weight: 600;
+    box-shadow: 1px 1px 1px #dddddd; }
     .security__title:before {
       content: '';
       display: inline-block;
